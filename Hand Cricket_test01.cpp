@@ -10,7 +10,19 @@ void match(int score){
 //player input
 int pNum, botNum;
 cout<<"enter the number"<<endl;
+while(true) {
+
+
 cin>>pNum;
+if(pNum>=0&&pNum<=6) {
+break;
+}
+else{
+cout<<"\"Wrong input\""<<endl;
+match(score);
+}
+}
+
 botNum=rand() % 6+1;
 
 
