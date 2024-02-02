@@ -3,12 +3,6 @@
 //#include<ctime>
 using namespace std;
 
-/*void var(){
-int pNum, botNum, score;
-cin>>pNum;
-botNum=rand()%6+1;
-score=0;
-}*/
 
 void toss(){
 cout<<"\"HEADS\"\t or\t\"TAILS\""<<endl<<"ENTER 1 OR 2"<<endl;
