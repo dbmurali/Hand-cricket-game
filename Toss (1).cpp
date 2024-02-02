@@ -1,4 +1,5 @@
 #include<iostream>
+#include<ctime>
 //#include<ctime>
 using namespace std;
 
@@ -26,6 +27,7 @@ cout<<"wrong input"<<endl;
 }
 
 int toss;
+srand(time(NULL)) ;
 toss=rand()%2+1;
 switch(toss){
 case 1:
