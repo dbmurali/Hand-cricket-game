@@ -22,7 +22,7 @@ cout<<"\"Wrong input\""<<endl;
 match(score);
 }
 }
-
+srand(time(NULL));
 botNum=rand() % 6+1;
 
 
